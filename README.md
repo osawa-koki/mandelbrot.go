@@ -2,10 +2,28 @@
 
 🐵🐵🐵 Go言語でマンデルブロ集合を描写する。  
 
+![成果物](./.development/img/fruit.png)  
+
 ## 実行方法
 
 DevContainer内に入り、以下のコマンドを実行。  
 
 ```shell
-go run main.go
+# 通常版
+go run ./normal/main.go
+
+# goroutineを使った最速版
+go run ./faster/main.go
+```
+
+しっかりとビルド、実行するには、、、  
+
+```shell
+# 通常版
+go build -o ./bin/normal ./normal/main.go
+./bin/normal
+
+# goroutineを使った最速版
+go build -o ./bin/faster ./normal/main.go
+./bin/faster
 ```
