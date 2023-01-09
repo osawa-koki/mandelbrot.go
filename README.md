@@ -1,6 +1,9 @@
 # mandelbrot.go
 
 🐵🐵🐵 Go言語でマンデルブロ集合を描写する。  
+普通に描写と、goroutineを使用した2つを用意。  
+
+Goは偉大だ🐙🐙🐙  
 
 ![成果物](./.development/img/fruit.png)  
 
